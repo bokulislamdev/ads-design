@@ -1,0 +1,280 @@
+@media only screen and (max-width:1199px) {
+    .menubar > ul > li > a {
+        padding: 5px 5px;
+        margin: 0 1px;
+        font-size: 14px;
+    }
+    .course-btn-div{
+        display: block;
+        padding-top: 10px;
+    }
+    .course-btn-div .custom-btn{
+        font-size: 14px;
+        padding: 6px 20px;
+    }
+    .course-box p{
+        padding-top: 0px;
+    }
+}
+
+
+@media only screen and (max-width:991px) {
+
+    .menubar > ul > li > a {
+        padding: 5px !important;
+    }
+
+    .menubar > ul > li > a.find-broker-btn {
+        padding: 10px 20px !important;
+    }
+
+    .home-left {
+        padding-left: 0;
+    }
+
+    .category-row > div {
+        width: 25%;
+    }
+    
+
+}
+
+@media only screen and (max-width:767px) {
+
+    .logo {
+        display: inline-block;
+    }
+
+    .sub-btn a span {
+        padding: 0 6px;
+    }
+
+    .sub-menu > a {
+        font-size: 14px;
+    }
+
+    .category-row > div {
+        width: 33.33%;
+    }
+
+    .page-header H2 {
+        font-size: 35px;
+        line-height: 49px;
+    }
+
+    .blog-head h4 {
+        font-family: fontp;
+        color: #363636;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .blog-head a {
+        font-size: 12px;
+        padding: 8px 8px;
+    }
+
+    .blog-head a {
+        align-items: center;
+        display: flex;
+        width: 125px;
+        font-size: 12px;
+        padding: 8px 8px;
+        align-items: center;
+    }
+
+    .blog-head a i:first-child {
+        margin-left: 5px;
+    }
+    .course-box h4 {
+	font-size: 20px;
+	line-height: 24px;
+    }
+    .course-box.row-course-box .sell-price {
+	font-size: 14px;
+    }
+    .course-box.row-course-box .previous-price {
+	font-size: 14px;
+    }
+    .course-box.row-course-box .offer {
+	font-size: 14px;
+    }
+    
+    
+
+
+}
+
+@media only screen and (max-width:575px) {
+    body {
+        font-size: 14px;
+    }
+
+    .logo a img {
+        width: 115px;
+        margin-right: 8px;
+    }
+
+    .footer-head h6 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .footer-head ul li a {
+        font-size: 14px;
+    }
+
+    .mobileAdd {
+        left: 0 !important;
+        width: 100%;
+    }
+
+    .logo i {
+        font-size: 18px;
+        margin-right: 5px;
+    }
+
+    .head-searchber-box input::placeholder {
+        font-size: 12px;
+    }
+
+    .head-searchber-box input {
+        padding-left: 38px;
+    }
+
+    .category-row > div {
+        width: 50%;
+    }
+
+    .home-left h1 {
+        font-size: 40px;
+    }
+
+    .home-left p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .custom-btn {
+        color: var(--wc);
+        font-size: 14px;
+    }
+
+    .section-title h4 {
+        font-size: 28px;
+    }
+
+    .lifestyle-nav .nav-link {
+        font-size: 14px;
+    }
+
+    .section-title h4 {
+        font-size: 24px;
+
+    }
+
+    .run-box h4 {
+        font-size: 18px;
+    }
+
+    .run-image img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .membersheep-section h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .course-box h4 {
+        font-size: 18px;
+    }
+
+    .category-box a {
+        font-size: 18px;
+    }
+
+    .section-title h4 {
+        font-size: 22px;
+    }
+
+    .run-box h4 {
+        font-size: 16px;
+    }
+
+    .about-left h6 {
+        font-size: 16px;
+    }
+
+    .about-left h3 {
+        color: var(--bc);
+        font-size: 22px;
+    }
+
+    .page-header H2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .page-header H2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .page-header p {
+        font-size: 13px;
+        line-height: 22px;
+        margin: 0;
+    }
+
+    .custom-btn {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+    .cart-box h6 {
+    font-size: 18px;
+    line-height: 24px;
+        margin: 0;
+    }
+    .cart-delete span {
+    font-size: 16px;
+    }
+    .cart-box p{
+        margin: 0;
+    }
+    .cart-right h2 {
+    font-size: 25px;
+    }
+    .nav-link.course-cat-btn {
+    font-size: 14px;
+    padding: 7px 14px;
+    margin-right: 10px;
+    }
+    .search-category > div > label {
+    font-size: 14px;
+    }
+    .search-category input[type='checkbox'] {
+    height: 16px;
+    }
+    .category-left .accordion-button {
+    font-size: 18px;
+    }
+    .row-course-box.course-box .course-img {
+	width: 350px;
+    }
+    .course-overlay{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .head-searchber-box input::placeholder {
+        font-size: 10px;
+    }
+
+    .category-row > div {
+        width: 100%;
+    }
+
+}

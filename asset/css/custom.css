@@ -1,0 +1,83 @@
+
+
+:root {
+    --pc: #575757;
+    --sc: #2D7BCD;
+    --wc: #ffffff;
+    --bc: #000000;
+    --gc: #cccccc;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pc);
+/*    font-family: 'Hind Siliguri', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    line-height: 24px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--pc);
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--pc);
+}
+
+button {
+    border: none;
+}
+
+.stretched-link{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+}
+/*
+.custom-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+}
+
+.custom-row::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+*/
