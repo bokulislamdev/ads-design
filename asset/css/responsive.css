@@ -35,6 +35,9 @@
     .category-row > div {
         width: 25%;
     }
+    .state-list > div{
+        width: 25%;
+    }
     
 
 }
@@ -98,6 +101,9 @@
     }
     .course-box.row-course-box .offer {
 	font-size: 14px;
+    }
+    .state-list > div{
+        width: 33.33%;
     }
     
     
@@ -265,6 +271,9 @@
     }
     .course-overlay{
         width: 300px;
+    }
+    .state-list > div{
+        width: 50%;
     }
 }
 
