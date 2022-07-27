@@ -16,6 +16,9 @@
     .course-box p{
         padding-top: 0px;
     }
+    .ads-area-left ul li {
+        width: 50%;
+    }
 }
 
 
@@ -39,6 +42,12 @@
     }
     .menubar ul li:first-child::before{
     content: "";
+    }
+    .ads-area-left ul li {
+        width: 20%;
+    }
+    .seller-middle-box.view_greed{
+        width: 50%;
     }
 
     
@@ -115,7 +124,12 @@
     .seller-right-box img{
     max-width: 150px;
     }
-    
+    .ads-area-left ul li {
+        width: 33.33%;
+    }
+    .seller-middle-box.view_greed{
+        width: 33.33%;
+    }
     
 
 
@@ -296,6 +310,21 @@
     .state-list > div{
         width: 50%;
     }
+    .ads-area-right form {
+	width: 100%;
+    }
+    .ads-area-left ul li {
+    width: 50%;
+    }
+    .prev_ads_details{
+        left: 0;
+    }
+    .next_ads_details{
+        right: 0;
+    }
+    .seller-middle-box.view_greed{
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width:400px) {
@@ -318,5 +347,10 @@
     .category-row > div {
         width: 100%;
     }
-
+    .ads-area-left ul li {
+        width: 100%;
+    }
+     .seller-middle-box.view_greed{
+        width: 100%;
+    }
 }
