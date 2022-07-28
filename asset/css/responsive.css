@@ -49,6 +49,12 @@
     .seller-middle-box.view_greed{
         width: 50%;
     }
+    .prev_ads_top{
+        display: block;
+    }
+    .next_ads_top{
+        display: block;
+    }
 
     
 

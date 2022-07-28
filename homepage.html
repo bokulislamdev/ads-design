@@ -27,7 +27,7 @@
     <!--    HEADER SECTION-->
     <header class="py-2 py-lg-3" style="background-image: url(asset/images/animate/bubble.svg)">
         <div class="container-fluid">
-<!--
+            <!--
             <div class="menubar home-menu d-lg-none pb-3">
                 <ul>
                    
@@ -58,7 +58,7 @@
                 </div>
                 <div class="menubar home-menu d-flex">
                     <ul>
-                       
+
                         <li class="sub-btn">
                             <a href="#">En <i class="fa-solid fa-angle-down"></i></a>
                             <div class="sub-menu">
@@ -201,6 +201,7 @@
                         <a href="#">Aubum</a>
                         <a href="#">Dothan</a>
                         <a href="#" class="see-more-state">more cities..</a>
+                        
                     </div>
                     <div>
                         <h6>Alabama</h6>
@@ -253,15 +254,27 @@
                         <a href="#">Dothan</a>
                         <a href="#" class="see-more-state">more cities..</a>
                     </div>
-                    <div>
+                    <div class="abc">
                         <h6>Alabama</h6>
                         <a href="#">Aubum</a>
                         <a href="#">Dothan</a>
+                        <a href="#">Dothan</a>
+                        <a href="#">Dothan</a>
+                        <a href="#">Dothan</a>
+                        <a href="#">Dothan</a>
+                        <a href="#">Dothan</a>
+                        <a href="#">Dothan</a>
                         <a href="#" class="see-more-state">more cities..</a>
                     </div>
-                    <div>
+                    <div class="abc">
                         <h6>Alabama</h6>
                         <a href="#">Aubum</a>
+                        <a href="#">Dothan</a>
+                        <a href="#">Dothan</a>
+                        <a href="#">Dothan</a>
+                        <a href="#">Dothan</a>
+                        <a href="#">Dothan</a>
+                        <a href="#">Dothan</a>
                         <a href="#">Dothan</a>
                         <a href="#" class="see-more-state">more cities..</a>
                     </div>
@@ -322,7 +335,30 @@
             $("#mobileOverlay").toggleClass('mobile-overlay');
         }
         //        MOBILE MENU END
+        
+        
+        
 
+//        let btn = document.querySelectorAll('.see-more-state')
+//        let array = Array.from(btn)
+//
+//        array.map(function(item){
+//            item.addEventListener('click',function(){
+//                var classname = item.className
+//                var parentelement = item.parentElement;
+//                var childrenitem =parentelement.children;
+//                console.log(childrenitem)
+//                $('.abc a').slice(0, 2).remove();
+//            })
+//        })
+        
+//        let abc = document.querySelectorAll('.abc')
+//        let array = Array.from(abc)
+//        console.log(array).className
+//        const items = list.slice(0, size)
+        
+        let aaa = $(".abc a").slice(0, 3);
+        $('.abc').children.push(aaa);
 
 
         // slick slider

@@ -234,6 +234,7 @@ header {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    display: none;
 }
 
 
@@ -254,6 +255,7 @@ header {
     z-index: 2;
     font-size: 18px;
     transform: translateY(-50%);
+    display: none;
 }
 
 
@@ -573,6 +575,7 @@ footer.homepage .copyright a {
     font-size: 16px;
     padding: 0 6px;
     margin: 0;
+
 }
 
 .ads-slider-head {
@@ -580,6 +583,8 @@ footer.homepage .copyright a {
     color: var(--wc);
     padding: 5px;
     padding-right: 25px;
+        border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 .ads-slider-head span {
@@ -602,12 +607,14 @@ footer.homepage .copyright a {
     padding: 7px;
     padding-top: 0;
     background: var(--wc);
+    border-bottom-left-radius: 5px;    border-bottom-right-radius: 5px;
 }
 
 .ads-slider-body {
     background: #F8F9B7;
     border: 1px solid #E59617;
     padding: 5px;
+    border-radius: 5px;
 }
 
 .ads-slider img {
@@ -618,7 +625,7 @@ footer.homepage .copyright a {
 
     position: absolute;
     top: 50%;
-    right: 0px;
+    right: 12px;
     color: var(--sc);
     background: var(--wc);
     -webkit-box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
@@ -641,7 +648,7 @@ footer.homepage .copyright a {
 .course_prev {
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 12px;
     color: var(--sc);
     background: var(--wc);
     -webkit-box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
